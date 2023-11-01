@@ -27,15 +27,6 @@ esphome:
 preferences:
   flash_write_interval: "24h"
 
-wifi:
-  ap:
-
-captive_portal:
-
-api:
-
-ota:
-
 logger:
   baud_rate: 0  # Make sure logging is not using the serial port
   level: ${logger_level}
